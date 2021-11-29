@@ -340,6 +340,7 @@ a {
     font-size: 1.0rem;
     /* text-transform: uppercase; */
     font-weight: 300;
+    margin-top: 5px;
 }
 #experience p {
     font-size: 1.0rem;
