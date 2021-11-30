@@ -4,4 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
         img.addEventListener('mouseenter', () => img.src = img.src));
 
     // Prevent simple crawlers from scraping my email.
+    const mail = 'mail';
+    const me = 'jack';
+    const domain = 'foltz.io';
+    document.querySelector('#secret').href = `${mail}to:${me}@${domain}`;
 });
